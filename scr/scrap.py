@@ -26,7 +26,7 @@ def main():
                        ALL_STORES.append(store)
                except :
                    print('\n\n\n~\n\n~\n\n\n\n')
-    print(MY_STORES[298:307])
+    # print(MY_STORES[298:307])
 
     # with open('Migros_Stores.json', 'w') as jj:
     #     try:
@@ -34,10 +34,13 @@ def main():
     #
     #     except:
     #         print('oh shit son')
-
+    srts = []
+    for store in MY_STORES:
+        e = store.replace("\"", "'''")
+        srts.append(e)
     with open('MyMStores.json', 'w') as jj:
         try:
-            json.dump(MY_STORES, jj, indent = 0 )
+            json.dump(srts, jj, indent = 0 )
 
         except:
             print('oh shit son')

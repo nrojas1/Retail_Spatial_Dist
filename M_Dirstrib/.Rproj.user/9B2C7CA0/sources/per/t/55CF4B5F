@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1574885951134.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1264954036",
+    "id" : "55CF4B5F",
+    "lastKnownWriteTime" : 1574889192,
+    "last_content_update" : 1574889192087,
+    "path" : "~/Desktop/StatSpac/M_Dirstrib/structure.R",
+    "project_path" : "structure.R",
+    "properties" : {
+        "cursorPosition" : "19,0",
+        "scrollLine" : "6",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
